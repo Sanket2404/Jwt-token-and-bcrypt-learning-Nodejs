@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="w-full h-screen bg-zinc-900 text-white p-10">
+      <h3 class="text-2xl text-zinc-400 mb-5">Login</h3>
+      <form action="/login" method="post">
+
+        <input class="px-3 py-2 bg-transparent rounded-md border-2 border-zinc-700 outline-none"  type="email" name="email" placeholder="email" id="">
+
+        <input class="px-3 py-2 bg-transparent rounded-md border-2 border-zinc-700 outline-none"  type="password" name="password" placeholder="password" id="">
+
+        <input type="submit" class="bg-blue-500 rounded-md px-4 py-2" value="Login">
+
+      </form>
+    </div>
+</body>
+</html>
